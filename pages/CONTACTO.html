@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+</head>
+<body>
+    <header>
+        <h1 style="display: flex; justify-content: center;">Zoologico MADAGASCAR</h1>
+        <p style="display: flex; justify-content: center;">Descubre la maravillosa vida animal</p>
+    </header>
+
+    <nav>
+        <a href="/INDEX.html">Home</a>
+        <a href="pages/GALERIA.html">Galeria</a>
+        <a href="">Acerca</a>
+        <a href="/pages/CONTACTO.html">Contacto</a>
+    </nav>
+    <hr>
+    <section>
+        <H2 style="text-align: center;">Registro de usuario</H2>
+    </section>
+    <form action="#">
+        <label for="nombre">Ingrese su nombre</label>
+        <br><br>
+        <input type="text" id="nombre" placeholder="ej: luis" size="15" required>
+        <br><br>
+        <label for="mail">Ingrese su MAIL</label>
+        <br><br>
+        <input type="email" id="mail" placeholder="ej: lucho@email.com" size="25" required>
+        <br><br>
+        <label for="contraseña">Ingrese su contraseña</label>
+        <br><br>
+        <input type="password" id="contraseña" placeholder="ej: k2354USDH" size="25" required>
+        <br><br>
+        <label for="fecha_nac">Ingrese su fecha de nacimento</label>
+        <br><br>
+        <input type="date" id="fecha_nac" required>
+        <br><br>
+        <label for="telefono">Ingrese su telefono</label>
+        <br><br>
+        <input type="tel" id="telefono" placeholder="ej: +593_________" size="10" required>
+        <br><br>
+        <label for="cargas">Cargas Familiares</label>
+        <br><br>
+        <input type="number" id="cargas" size="25" required>
+        <br><br>
+        <label>Ingrese su genero</label>
+        <br><br>
+        <label for="Masculino"><input type="radio" id="Masculino" name="genero">Masculino</label>
+        <label for="Femenino"><input type="radio" id="Femenino" name="genero">Femenino</label>
+        <label for="otro"><input type="radio" id="otro" name="genero">Otro</label>
+        <br><br>
+        <label for="ciudad">Ciudad</label>
+        <br><br>
+        <select name="ciudad" id="ciudad">
+            <option value="seleccionar" disabled selected>Seleccionar</option>
+            <option value="quito">Quito</option>
+            <option value="latacunga">Latacunga</option>
+            <option value="ibarra">Ibarra</option>
+            <option value="cuenca">Cuenca</option>
+            <option value="Otro">otro</option>
+            </select>
+            <br><br>
+            <label for="comentarios">Deje sus comentarios</label>
+            <br><br>
+            <textarea name="comentarios" id="comentarios" rows="4" cols="50" placeholder="comentarios"></textarea>
+            <br><br>
+            <label for="foto">Adjuntar fotografias</label>
+            <br><br>
+            <input type="file">
+            <br><br>
+            <!--botones-->
+            <input type="button" value="Enviar">
+            <button type="reset">Limpiar</button>
+    </form>
+</body>
+</html>
